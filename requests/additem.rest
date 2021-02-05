@@ -1,0 +1,21 @@
+POST http://localhost:3001/api/notes
+content-type: application/json
+
+{
+    "title":"Test",
+    "author": "None", 
+    "url": "None",
+    "likes": 0
+}
+
+###
+
+POST http://localhost:3001/api/notes
+content-type: application/json
+
+{
+    "title":"Test2",
+    "author": "None", 
+    "url": "None",
+    "likes": 0
+}
